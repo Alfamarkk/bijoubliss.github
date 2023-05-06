@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: white;
+}
+#Container{			/* main page */
+    max-width: 100%;
+    max-height: 100%;
+
+}
+/*navigation bar*/
+.logo img{
+	display: block;
+	margin-bottom: -40px;
+    text-align: right;
+    padding-left: 10%;
+	height: 150px;
+    margin-top: -10px;
+}
+nav{
+	width: 100%;
+	border-bottom: 2px solid #000;
+
+}
+nav ul{
+	text-align: right;
+    margin-right: 10%;
+	margin-top: -70px;
+
+}
+
+nav ul li{
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 -2px;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+nav ul li a{
+    position: relative;
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	padding: 15px 35px;
+	text-transform: uppercase;
+	font-weight: 700;
+    margin: 15px 10px;
+    bottom: 15px;
+}
+
+.menu a:hover{	/* active and hover style */
+	color: rgb(236, 174, 102);
+}
+.active{
+    color: rgb(236, 174, 102);;
+}
+
+/*content*/
+.contact{
+	width: 40%;
+	margin-left: 30px;
+}
+.contact h2{
+	text-align: justify;
+	font-size: 30px;
+	margin-left: 30%;
+	margin-top: 10%;
+	margin-bottom: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.contact .please {
+	text-align: justify;
+	margin-left: 30%;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+.contact .mess {
+	text-align:justify;
+	margin-left: 30%;
+	margin-top: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.email{
+	text-align:justify;
+	margin-left: 14%;
+	margin-top: 15px;
+	font-weight: 600;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.email .p2:hover{
+	color: gold;
+}
+.container{
+	width: 30%;
+	position: relative;
+	border: 2px solid black;
+	left: 50%;
+	margin-top: -240px;
+}
+.container form{
+	margin: 20px;
+}
+
+.container .inputbox{
+	padding: 10px;
+	margin-right: -20px;
+	margin-left: 10px;
+}
+
+.container .contactform{
+	position: relative;
+	top: 20%;
+}
+
+.inputbox input{
+	padding: 10px;
+	width: 90%;
+	border: 1px solid;
+}
+
+.inputbox textarea{
+	width: 90%;
+}
+
+.submit{
+	margin-left: 75%;
+}
+.submit .sub{
+	padding: 7px 10px 7px 10px;
+	border: 1px solid;
+	border-radius: 30px;
+
+}
+.submit .sub:hover{
+	background-color: gold;
+	border: none;
+	cursor: pointer;
+}
+
+.contactform form h2{
+	margin-left: 20px;
+
+}
+
+.inputbox .sub{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputbox p{
+	font-family: Arial, Helvetica, sans-serif;
+}

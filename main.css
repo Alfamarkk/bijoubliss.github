@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: white;
+}
+#Container{			/* main page */
+    max-width: 100%;
+    max-height: 100%;
+
+}
+/*navigation bar*/
+.logo img{
+	display: block;
+	margin-bottom: -40px;
+    text-align: right;
+    padding-left: 10%;
+	height: 150px;
+    margin-top: -10px;
+}
+nav{
+	width: 100%;
+	border-bottom: 2px solid #000;
+
+}
+nav ul{
+	text-align: right;
+    margin-right: 10%;
+	margin-top: -70px;
+
+}
+
+nav ul li{
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 -2px;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+nav ul li a{
+    position: relative;
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	padding: 15px 35px;
+	text-transform: uppercase;
+	font-weight: 700;
+    margin: 15px 10px;
+    bottom: 15px;
+}
+
+.menu a:hover{	/* active and hover style */
+	color: rgb(236, 174, 102);
+}
+.active{
+    color: rgb(236, 174, 102);;
+}
+/*content*/
+.image1 img{
+	position: relative;
+	height: -20px;
+	width: 90%;
+	left: 70px;
+	margin-top: -15px;
+}
+
+.msg{
+	width: 33%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	letter-spacing: .5px;
+}
+
+.btn1{
+	margin-top: 15px;
+	margin-left: 35%;
+}
+.btn1 button{
+	padding: 10px 10px;
+	font-size: 20px;
+	border-radius: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: none;
+	background-color: gold;
+	
+}
+.btn1 button:hover{
+	background-color: black;
+	color: aliceblue;
+	cursor: pointer;
+}
+
+.image-container{
+	display: flex;
+	justify-content: center;
+	margin-top: -250px;
+	margin-left: 500px;
+	margin-bottom: 20px;
+}
+
+
+.img1 img{
+	height: 250px;
+	width: 250px;
+	padding-right: 15px;
+
+}
+
